@@ -1,0 +1,47 @@
+{
+  "EnableKii": false,
+  "SeedgenPath": "/home/timo/Code/Repositories/wotw-seedgen/seedgen",
+  "DisableSpoilers": false,
+  "Probabilities": {
+    "GoalMode": [
+      {"Name": "trees", "Probability":  50},
+      {"Name": "relics", "Probability":  40},
+      {"Name": "wisps", "Probability":  10},
+      {"Name": "quests", "Probability":  0}
+    ],
+    "UseRandomSpawn": 80,
+    "HeaderGroups": [
+      [
+        {"HeaderNames": ["key_hints"], "Probability": 100}
+      ],
+      [
+        {"HeaderNames": ["zone_hints"], "Probability": 100}
+      ],
+      [
+        {"HeaderNames": ["trial_hints"], "Probability": 100}
+      ],
+      [
+        {"HeaderNames": ["better_random_spawn"], "Probability": 100}
+      ],
+      [
+        {"HeaderNames": ["teleporters", "tp_zone_hints"], "Probability": 75}
+      ],
+      [
+        {"HeaderNames": ["black_market"], "Probability": 100}
+      ],
+      [
+        {"HeaderNames": ["no_rain"], "Probability": 100}
+      ],
+      [
+        {"HeaderNames": ["bonus_items"], "Probability": 30},
+        {"HeaderNames": ["bonus+"], "Probability": 10}
+      ],
+      [
+        {"HeaderNames": ["vanilla_opher_upgrades"], "Probability": 50}
+      ],
+      [
+        {"HeaderNames": ["launch_fragments"], "Probability": 50}
+      ]
+    ]
+  }
+}
